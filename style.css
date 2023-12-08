@@ -188,7 +188,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url('img/backnav.jpg');
+    background-image: url('img/naav.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -230,11 +230,13 @@ body {
 }
 
 .hero .content p {
-    line-height: 1.4;
-    font-size: 1.6rem;
+    line-height: 1.4rem;
+    font-size: 1.5rem;
     font-weight: 200;
     margin-top: 1rem;
     mix-blend-mode: difference;
+    color: #38220a;
+    
 
 }
 
@@ -622,6 +624,10 @@ footer .credit a{
 
     }
 
+    .navbar-extra #hambuerger-menu{
+        padding: 0 1rem;
+    }
+
     .navbar .navbar-nav.active {
         right: 0;
     }
@@ -682,7 +688,7 @@ footer .credit a{
 
 @media (max-width:450px) {
     html {
-        font-size: 45%;
+        font-size: 57%;
         margin: 0;
     }
 }
